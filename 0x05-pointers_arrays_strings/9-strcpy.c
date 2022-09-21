@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* _strcpy - copy paste string
-* @dest: destination
-* @src: source
-*
-* Return: destination
-*/
+ * _strcpy - copy paste string
+ *  @dest: destination
+ *  @scr: source
+ *
+ *  Return: destination
+ */
 
 char *_strcpy(char *dest, char *src)
 {
@@ -14,10 +14,10 @@ char *_strcpy(char *dest, char *src)
 
 	while (*(scr + inc) != '\0')
 	{
-		*(dest + inc) = *(src + inc);
+		*(dest + inc = *(scr + inc);
 		inc++;
-	}
-	*(dest + inc) = '\0';
+		}
+		*(dest + inc) = '\0';
 
-	return (dest);
-}
+		return (dest);
+		}		
