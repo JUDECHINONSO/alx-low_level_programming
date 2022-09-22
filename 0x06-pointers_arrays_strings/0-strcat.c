@@ -4,19 +4,11 @@
 /**
 * _strcat -> this is a function strcat
 * @dest: first param
-* @src: second para
+* @src: second param
 * Return: a string
 */
 char *_strcat(char *dest, char *src)
 {
-    int len = 0, i;
-
-    while (dest[len])
-	len++;
-
-    for (i = 0; src[1] != '\0'; i++)
-    {
     strcat(dest, src);
-    {
     return (dest);
 }
