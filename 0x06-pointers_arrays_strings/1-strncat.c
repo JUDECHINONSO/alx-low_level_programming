@@ -1,16 +1,30 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* _strncat -> function to append some charx
-* @dest: first param
-* @src: second param
-* @n: 3rd param
-* Retturn: string
+ * _strncat - concatenates two strings
+ * @dest: The destination value
+ * @src: The source value
+ * @n: The limit of the concatenation
+ *
+ * Retturn: A pointer to the resulting string dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
+	int dlen = 0, j = 0;
 
-	strncat(dest, src, n);
+	while (dest[dlen])
+	{
+		dlen++;
+	}
+
+	while (j < n && src[j])
+	{
+		dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
+
+	dest[dlen + n + 1] = '\0';
 	return (dest);
 }
+
