@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 /**
  * _strncat - concatenates two strings
@@ -8,7 +8,7 @@
  * @n: The limit of the concatenation
  *
  * Retturn: A pointer to the resulting string dest
-*/
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int dlen = 0, j = 0;
