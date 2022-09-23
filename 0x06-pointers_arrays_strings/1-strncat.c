@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat - concatenates two strings
@@ -7,7 +6,7 @@
  * @src: The source value
  * @n: The limit of the concatenation
  *
- * Retturn: A pointer to the resulting string dest
+ * Return: A pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -28,4 +27,3 @@ char *_strncat(char *dest, char *src, int n)
 	dest[dlen + n + 1] = '\0';
 	return (dest);
 }
-
