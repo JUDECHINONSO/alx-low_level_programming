@@ -17,7 +17,7 @@ int _strlen(char *s)
 }
 
 /**
-* cap_string - function that capitalize first charcter of a word
+* cap_string - function that capitalize first character of a word
 * @str: string to capitalize
 * Return: returns the capitalized string
 */
